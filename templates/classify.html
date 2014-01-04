@@ -1,0 +1,9 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='classify.js') }}"></script>
+
+<div id="tweet_container">
+<span id="tweet_id">{{ tweet_data[0] }}</span> <span id="tweet">{{tweet_data[1]}}</span>
+</div>
+
+    <button id="yes">Yes</button>
+    <button id="no">No</button>
